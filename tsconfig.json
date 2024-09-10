@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES modules
+    "forceConsistentCasingInFileNames": true, // Ensure consistent case in file names
+    "lib": [ "dom", "ES2020" ], // Use the DOM and ES2022 libraries for type definitions
+    "module": "commonjs", // Specify the module code generation to CommonJS for Node.js
+    "moduleResolution": "node", // Resolve modules using Node.js conventions
+    "outDir": "./dist", // Output directory for compiled JavaScript files
+    "rootDir": "./src", // Root directory of the source TypeScript files
+    "skipLibCheck": true, // Skip type checking of declaration files (*.d.ts)
+    "strict": true, // Enable all strict type-checking options
+    "target": "ES2020" // Set the target JavaScript version to ES2022
+  },
+  "exclude": [ "node_modules" ], // Exclude the node_modules folder
+  "include": [ "src/**/*.ts" ] // Include all TypeScript files in the src directory
+}

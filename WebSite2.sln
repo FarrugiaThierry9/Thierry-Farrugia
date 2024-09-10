@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite2", ".", "{B93A7801-5F05-4686-891B-EADD23C83BAF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53940"
+		Debug.AspNetCompiler.PhysicalPath = "..\httpdocs\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53940\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53940"
+		Release.AspNetCompiler.PhysicalPath = "..\httpdocs\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53940\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53940"
+		SlnRelativePath = "..\httpdocs\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B93A7801-5F05-4686-891B-EADD23C83BAF}.Debug|AnyCPU.ActiveCfg = Debug|Any CPU
+		{B93A7801-5F05-4686-891B-EADD23C83BAF}.Debug|AnyCPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DE22468-9AE2-45D4-9662-5FF6024FB13A}
+	EndGlobalSection
+EndGlobal
